@@ -1,0 +1,51 @@
+@import "./variable";
+.featur-txt h1 {
+  padding: 3rem 0 1rem 0;
+  text-align: center;
+  font-size: 2.5rem;
+  position: relative;
+}
+.featur-txt h1::before {
+  content: "";
+  width: 100px;
+  height: 4px;
+  background-color: #1f59fa;
+  position: absolute;
+  bottom: 0;
+  left: 47%;
+  margin: 0.5rem;
+}
+.featur {
+  width: 95%;
+  margin: auto;
+  padding: 1rem 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 20px;
+  .featur-item {
+    transition: ease 0.4s all;
+    -webkit-transition: ease 0.4s all;
+    -moz-transition: ease 0.4s all;
+    -ms-transition: ease 0.4s all;
+    -o-transition: ease 0.4s all;
+    background-color: #f2f3f7;
+    padding: 1rem;
+    p {
+      line-height: 1.5rem;
+      font-size: 1.3rem;
+    }
+    h1 {
+      padding: 0.5rem 0;
+    }
+    i {
+      padding: 0.5rem;
+    }
+    &:hover {
+      transform: translate(-10px, -10px);
+      -webkit-transform: translate(-10px, -10px);
+      -moz-transform: translate(-10px, -10px);
+      -ms-transform: translate(-10px, -10px);
+      -o-transform: translate(-10px, -10px);
+    }
+  }
+}

@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css?family=Allura|Josefin+Sans");
+.wrapper {
+  // margin-top: 50px;
+  background-color: rgb(243, 243, 243);
+}
+
+.wrapper h1 {
+  padding-top: 1rem;
+  font-family: "Allura", cursive;
+  font-size: 52px;
+  margin-bottom: 60px;
+  text-align: center;
+  color: #000;
+}
+
+.team {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.team .team_member {
+  background: #fff;
+  margin: 5px;
+  margin-bottom: 50px;
+  width: 300px;
+  border-radius: 0.5rem;
+  padding: 20px;
+  line-height: 20px;
+  color: #8e8b8b;
+  position: relative;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+  a {
+    text-decoration: none;
+    padding: 10px 26px 10px 28px;
+    font-size: 1.2rem;
+    border-radius: 55px;
+    display: inline-block;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    margin-top: 1.2rem;
+    color: #fff;
+    background-image: linear-gradient(90deg, #34d78a 0%, #78e013 100%);
+    transition: ease 0.5s all;
+    -webkit-transition: ease 0.5s all;
+    -moz-transition: ease 0.5s all;
+    -ms-transition: ease 0.5s all;
+    -o-transition: ease 0.5s all;
+    -webkit-transition: e;
+  }
+  a:hover {
+    box-shadow: 0 5px 29px -6px #34d78a;
+  }
+  p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}
+
+.team .team_member h3 {
+  color: #81c644;
+  font-size: 26px;
+  margin-top: 50px;
+}
+
+.team .team_member p.role {
+  color: #ccc;
+  margin: 12px 0;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.team .team_member .team_img {
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.team .team_member .team_img img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  padding: 5px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}

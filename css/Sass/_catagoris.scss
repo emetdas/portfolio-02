@@ -1,0 +1,41 @@
+.wor {
+  text-align: center;
+  padding: 2rem 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(#1ca5b8b0, #56e6c267);
+  // clip-path: polygon(52% 0, 100% 1%, 100% 100%, 0 100%, 0% 38%);
+}
+.wor .filter {
+  padding: 0.8rem;
+  margin: 1rem 1rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  cursor: pointer;
+  padding: 10px 26px 10px 28px;
+  box-shadow: 2px 2px 7px rgb(138, 138, 138);
+  color: $color-Primry;
+  border: none;
+  outline: none;
+  border-radius: 55px;
+  background-image: linear-gradient(90deg, #34d78a 0%, #78e013 100%);
+}
+#fil .mix {
+  width: 400px;
+  height: 350px;
+  margin: 0.5rem 0.5rem;
+  display: none;
+  background-color: #ffffff;
+  i {
+    padding: 1.5rem 0;
+    font-size: 30px;
+    color: #27b3a0;
+  }
+  h1 {
+    padding: 1rem 0;
+  }
+}
+.mix img {
+  width: 80%;
+  height: 50%;
+}
+

@@ -1,0 +1,163 @@
+@import "./variable";
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
+.main {
+  width: 100%;
+  overflow: hidden;
+  .header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/ban.svg);
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    background-size: cover;
+    background-position: center;
+
+    // linear-gradient(
+    //     rgba(0, 0, 0, 0.425),
+    //     rgba(0, 0, 0, 0.472)
+    //   ),
+    .brand {
+      width: 200px;
+      height: 140px;
+      margin-top: -2rem;
+    }
+    .brand img {
+      width: 100%;
+      height: 100%;
+    }
+    .text-button {
+      margin-top: 20%;
+      margin-left: 40%;
+      transform: translate(-50%, -50%);
+      -webkit-transform: translate(-50%, -50%);
+      -moz-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      -o-transform: translate(-50%, -50%);
+      h1 {
+        font-size: 2rem;
+        color: rgb(0, 0, 0);
+      }
+      a {
+        text-decoration: none;
+        padding: 10px 26px 10px 28px;
+        display: inline-block;
+        margin-left: 1rem;
+        transition: ease 0.5s all;
+        font-weight: bold;
+        text-transform: uppercase;
+        border-radius: 55px;
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+        margin-top: 2rem;
+        background-image: linear-gradient(90deg, #34d78a 0%, #78e013 100%);
+        color: rgb(255, 255, 255);
+        transition: ease 1s all;
+        -webkit-transition: ease 0.5s all;
+        -moz-transition: ease 0.5s all;
+        -ms-transition: ease 0.5s all;
+        -o-transition: ease 0.5s all;
+        span {
+          color: #7cecb8;
+        }
+      }
+      a:hover {
+        box-shadow: 0 5px 29px -6px #34d78a;
+      }
+      @media (min-width: 1200px) {
+        h1 {
+          font-size: 1.6rem;
+        }
+      }
+
+      @media (max-width: 800px) {
+        .text-button {
+          padding: 0 1rem;
+        }
+
+        h1 {
+          font-size: 1rem;
+        }
+      }
+
+      @media (max-width: 500px) {
+        h1 {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+
+  .ac {
+    width: 80%;
+    margin: auto;
+    padding: 2rem 0;
+  }
+  .ac {
+    margin-top: -3rem;
+  }
+  .accordion {
+    width: 95%;
+    background-color: #f2f3f7;
+    margin-top: 4rem;
+    margin-left: 1rem;
+  }
+}
+.accordion {
+  margin: 0 4rem;
+}
+.accordion-tab > .accordion-toggle {
+  position: absolute;
+  display: none;
+}
+
+.accordion-tab > label {
+  color: rgb(0, 0, 0);
+  background-color: #f2f3f7;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  position: relative;
+  display: block;
+  padding: 13px 40px 13px 20px;
+  border-top: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.accordion-tab > .accordion-content {
+  max-height: 0;
+  transition: all 0.4s;
+  overflow: hidden;
+}
+
+.accordion-tab > label:after {
+  content: "\f078";
+  position: absolute;
+  top: 13px;
+  right: 20px;
+  font-family: fontawesome;
+  transform: rotate(90deg);
+  transition: transform 0.3s;
+}
+
+.accordion-tab > .accordion-toggle:checked ~ label:after {
+  transform: rotate(0deg);
+}
+
+.accordion-tab > .accordion-toggle:checked ~ .accordion-content {
+  max-height: 100vh;
+}
+
+.accordion-tab > .accordion-content {
+  background-color: #fff;
+}
+.accordion-tab > .accordion-content p {
+  margin: 15px 0;
+  padding: 0 20px;
+  font-size: 15px;
+  line-height: 1.5;
+}
+// Scrolling
+.hideme {
+  opacity: 0.5;
+}

@@ -1,0 +1,102 @@
+// mediaqury
+@media (max-width: 500px) {
+  nav {
+    z-index: 999;
+    overflow: hidden;
+  }
+  .logo {
+    margin-left: -7rem;
+  }
+  nav ul {
+    margin-right: -1rem;
+  }
+  .one {
+    display: none;
+  }
+  ul li:hover ul {
+    display: none;
+  }
+  .text-button {
+    z-index: 1;
+    margin-top: 50% !important;
+    a {
+      padding: 0.5rem !important;
+      display: inline-block !important;
+    }
+  }
+  .featur-txt h1 {
+    padding: 1rem !important;
+    font-size: 1.4rem !important;
+  }
+  .featur {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+  .featur-item {
+    margin: 0.5rem 0;
+  }
+  .featur-item h1 {
+    font-size: 1.3rem !important;
+  }
+  .featur-item i {
+    font-size: 1.3rem !important;
+  }
+  .ac {
+    width: 100%;
+    margin: auto;
+    padding: 1rem 0;
+  }
+  .section-form {
+    width: 100%;
+    i {
+      margin-left: -1.7rem !important;
+      position: absolute;
+    }
+    input,
+    textarea {
+      width: 75%;
+      margin-left: 2rem;
+    }
+    input {
+      margin-left: 2rem;
+      width: 75% !important;
+    }
+    .row h2 {
+      text-align: center !important;
+      margin: 0;
+      font-size: 1.1rem;
+      display: block;
+    }
+    .row h2 {
+      margin-right: 2rem !important;
+    }
+  }
+  .form-right img {
+    width: 0;
+
+    padding: 1rem 0;
+    margin-left: 0 !important;
+  }
+  body > div.main > footer > div.footer-left {
+    margin-left: -1rem !important;
+    margin-bottom: 0rem !important;
+  }
+  body > div.main > footer > div.footer-left > h3 {
+    font-size: 1.7rem !important;
+  }
+  .footer-distributed .footer-icons {
+    margin-left: -3rem !important;
+    padding: 1rem 0;
+    margin-top: -0.6rem;
+    float: left;
+  }
+  .footer-distributed .footer-company-about {
+    margin-top: -2rem !important;
+  }
+  .footer-cont p {
+    font-size: 0.9rem;
+  }
+  .scrollTop {
+    display: none;
+  }
+}

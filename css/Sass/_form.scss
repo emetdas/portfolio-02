@@ -1,0 +1,92 @@
+.contact {
+  width: 100%;
+  background-color: #f3f3f3;
+  padding: 1rem 0;
+  // background-image: linear-gradient(90deg,#34d78a 0%,#78e013 100%);
+}
+.section-form {
+  width: 50%;
+  padding: 1rem 0;
+  margin-top: 3rem;
+  margin-left: 2.3rem;
+  float: left;
+  .fa-user-circle {
+    color: rgb(47, 205, 233);
+  }
+  .fa-envelope-open {
+    color: rgb(233, 106, 47);
+  }
+  .fa-facebook-messenger {
+    color: rgb(47, 112, 233);
+  }
+  h2 {
+    margin-left: 35%;
+    margin-top: -3rem;
+    padding: 2rem 0;
+    text-align: center;
+    color: #37e6ec;
+    font-family: Poppins-Regular, sans-serif;
+  }
+  .span-1-of-3 {
+    margin-right: 0;
+    font-size: 1.3rem;
+    margin-top: 0.7rem;
+    i {
+      float: right;
+      margin-right: 1rem;
+    }
+  }
+  .span-2-of-3 input,
+  textarea {
+    width: 100%;
+    height: 2rem;
+    // margin-top: -0.5rem;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    // border-bottom: 2px solid gray;
+    font-size: 1.1rem;
+    padding-left: 1.5rem;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+  }
+}
+input:focus,
+textarea:focus {
+  border-bottom: 2px solid rgba(128, 128, 128, 0.486);
+}
+
+textarea {
+  padding-top: 1rem;
+  height: 2.7rem !important;
+}
+.button {
+  text-align: center;
+  width: 100px !important;
+  border: none !important;
+  margin: 0 40%;
+  outline: none;
+  color: #fff;
+  display: block;
+  font-size: 1.1rem;
+  border-radius: 5rem !important;
+  background-image: linear-gradient(90deg, #34d78a 0%, #78e013 100%);
+  padding: 10px 30px 30px 28px;
+  cursor: pointer;
+  -webkit-border-radius: 5rem !important;
+  -moz-border-radius: 5rem !important;
+  -ms-border-radius: 5rem !important;
+  -o-border-radius: 5rem !important;
+}
+
+.button:hover {
+  box-shadow: 0 5px 29px -6px #1db3ab;
+}
+.form-right img {
+  margin-left: 4rem;
+  margin-right: 0;
+}
